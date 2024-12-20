@@ -74,7 +74,7 @@ align-items: center;
 }
    `;
 
-   const RightBottom = styled.div`
+const RightBottom = styled.div`
 width: 50%;
 height: 100%;
 // border: 1px solid yellow;
@@ -95,56 +95,64 @@ justify-content: end;
    `;
 
 const Footer = () => {
-  return (
-    <FooterContainer>
-        <FooterTop>
-            <FooterInfo>
-                <h1 style={{color: 'white'}}>BNGOON</h1>
-                <p style={{color: 'white'}}>Copyright @ 2023 Bangoonan Designed by TokoTema</p>
-            </FooterInfo>
+    return (
+        <FooterContainer>
+            <FooterTop>
+                <FooterInfo>
+                    <h1 style={{ color: 'white' }}>BNGOON</h1>
+                    <p style={{ color: 'white' }}>Copyright @ 2023 Bangoonan Designed by TokoTema</p>
+                </FooterInfo>
 
-            <FooterInfo>
-                <h1 style={{color: 'white'}}>Abuot Us</h1>
-                <p style={{color: 'white'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio corporis quas facilis, provident magnam illum.</p>
-            </FooterInfo>
+                <FooterInfo>
+                    <h1 style={{ color: 'white' }}>Abuot Us</h1>
+                    <p style={{ color: 'white' }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio corporis quas facilis, provident magnam illum.</p>
+                </FooterInfo>
 
-            <FooterInfo>
-                <h1 style={{color: 'white'}}>Location</h1>
-                <ul>
-                    <li><a style={{color: 'white'}} target='_blank' href="#">United States</a></li>
-                    <li><a style={{color: 'white'}} target='_blank' href="#">United Kingdom</a></li>
-                    <li><a style={{color: 'white'}} target='_blank' href="#">Australia</a></li>
-                </ul>
-            </FooterInfo>
+                <FooterInfo>
+                    <h1 style={{ color: 'white' }}>Location</h1>
+                    <ul>
+                        <li><a style={{ color: 'white' }} target='_blank' href="/">United States</a></li>
+                        <li><a style={{ color: 'white' }} target='_blank' href="/">United Kingdom</a></li>
+                        <li><a style={{ color: 'white' }} target='_blank' href="/">Australia</a></li>
+                    </ul>
+                </FooterInfo>
 
-            <FooterInfo>
-                <h1 style={{color: 'white'}}>Contact Info</h1>
-                <p style={{color: 'white'}}>123 Main st. Anytown, USA</p>
-                <p style={{color: 'white'}}>+1 (555) 555-5555</p>
-                <p style={{color: 'white'}}>info@bangoonan.com</p>
-            </FooterInfo>
+                <FooterInfo>
+                    <h1 style={{ color: 'white' }}>Contact Info</h1>
+                    <p style={{ color: 'white' }}>123 Main st. Anytown, USA</p>
+                    <p style={{ color: 'white' }}>+1 (555) 555-5555</p>
+                    <p style={{ color: 'white' }}>info@bangoonan.com</p>
+                </FooterInfo>
 
-        </FooterTop>
-        <FooterBottom>
+            </FooterTop>
+            <FooterBottom>
 
-            <LeftBottom>
-                <h1 style={{color: 'white'}}>Follow Us</h1>
-                <a style={{color: 'white'}} target='_blank' href="https://www.facebook.com/"><img src={facebook} alt="" /></a>
-                <a style={{color: 'white'}} target='_blank' href="https://www.instagram.com/"><img src={instagram} alt="" /></a>
-                <a style={{color: 'white'}} target='_blank' href="https://www.linkedin.com/"><img src={linkedin} alt="" /></a>
-                <a style={{color: 'white'}} target='_blank' href="https://www.youtube.com/"><img src={youtube} alt="" /></a>
-            </LeftBottom>
+                <LeftBottom>
+                    <h1 style={{ color: 'white' }}>Follow Us</h1>
+                    <a style={{ color: 'white' }} target='_blank' rel='noopener noreferrer' href="https://www.facebook.com/">
+                        <img src={facebook} alt="Facebook" />
+                    </a>
+                    <a style={{ color: 'white' }} target='_blank' rel='noopener noreferrer' href="https://www.instagram.com/">
+                        <img src={instagram} alt="Instagram" />
+                    </a>
+                    <a style={{ color: 'white' }} target='_blank' rel='noopener noreferrer' href="https://www.linkedin.com/">
+                        <img src={linkedin} alt="LinkedIn" />
+                    </a>
+                    <a style={{ color: 'white' }} target='_blank' rel='noopener noreferrer' href="https://www.youtube.com/">
+                        <img src={youtube} alt="YouTube" />
+                    </a>
+                </LeftBottom>
 
-            <RightBottom>
-                <ul>
-                    <li><a style={{color: 'white'}} href="#">Privacy</a></li>
-                    <li><a style={{color: 'white'}} href="#">Terms</a></li>
-                </ul>
-            </RightBottom>
+                <RightBottom>
+                    <ul>
+                        <li><a style={{ color: 'white' }} href="/">Privacy</a></li>
+                        <li><a style={{ color: 'white' }} href="/">Terms</a></li>
+                    </ul>
+                </RightBottom>
 
-        </FooterBottom>
-    </FooterContainer>
-  )
+            </FooterBottom>
+        </FooterContainer>
+    )
 }
 
 export default Footer

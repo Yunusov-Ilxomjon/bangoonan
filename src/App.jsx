@@ -1,3 +1,4 @@
+import React from "react";
 import Navbar from "./Compenents/1Navbar/Navbar";
 import Section from "./Compenents/2Section/Section";
 import CountryCards from "./Compenents/3Countrycards/CountryCards";

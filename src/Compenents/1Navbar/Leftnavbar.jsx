@@ -18,7 +18,9 @@ h1{
 const Leftnavbar = () => {
     return (
         <Left>
-            <h1>BNGOON</h1>
+            <a href="/">
+                <h1>BNGOON</h1>
+            </a>
         </Left>
     );
 }

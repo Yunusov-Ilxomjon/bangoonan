@@ -7,8 +7,6 @@ height: 550px;
 // border: 1px solid black;
 padding : 80px 80px;
 box-sizing : border-box;
-
-
 `;
 
 const Cards = styled.div`
@@ -54,59 +52,56 @@ const Cardsin = styled.div`
 const CountryCards = () => {
   return (
     <CardsDiv>
-        <h1 style={{textAlign: 'left'}} >Browse Property by Country</h1>
-        <a href="#" style={{textDecoration: 'none'}} ><h3 style={{textAlign: 'right'}}>See All Country</h3></a>
-        <p>Posuere id quam lerem dignissim</p>
+      <h1 style={{ textAlign: 'left' }} >Browse Property by Country</h1>
+      <a href="/" style={{ textDecoration: 'none' }} ><h3 style={{ textAlign: 'right' }}>See All Country</h3></a>
+      <p>Posuere id quam lerem dignissim</p>
 
-        <CardsContainer>
+      <CardsContainer>
 
-          <Cards>
+        <Cards>
 
-            <Cardsin></Cardsin>
-            <h2 style={{marginTop: '20px'}}>United States</h2>
-            <p>10 Properties</p>
+          <Cardsin></Cardsin>
+          <h2 style={{ marginTop: '20px' }}>United States</h2>
+          <p>10 Properties</p>
 
-          </Cards>
+        </Cards>
 
-          <Cards>
+        <Cards>
 
-            <Cardsin></Cardsin>
-            <h2 style={{marginTop: '20px', textAlign: 'left'}}>United States</h2>
-            <p style={{textAlign: 'left'}}>10 Properties</p>
+          <Cardsin></Cardsin>
+          <h2 style={{ marginTop: '20px', textAlign: 'left' }}>United States</h2>
+          <p style={{ textAlign: 'left' }}>10 Properties</p>
 
-          </Cards>
+        </Cards>
 
-    <Cards>
+        <Cards>
 
-<Cardsin></Cardsin>
-<h2 style={{marginTop: '20px', textAlign: 'left'}}>United States</h2>
-<p style={{textAlign: 'left'}}>10 Properties</p>
+          <Cardsin></Cardsin>
+          <h2 style={{ marginTop: '20px', textAlign: 'left' }}>United States</h2>
+          <p style={{ textAlign: 'left' }}>10 Properties</p>
 
-    </Cards>
+        </Cards>
 
-<Cards>
+        <Cards>
 
-<Cardsin></Cardsin>
-<h2 style={{marginTop: '20px', textAlign: 'left'}}>United States</h2>
-<p style={{textAlign: 'left'}}>10 Properties</p>
+          <Cardsin></Cardsin>
+          <h2 style={{ marginTop: '20px', textAlign: 'left' }}>United States</h2>
+          <p style={{ textAlign: 'left' }}>10 Properties</p>
 
-</Cards>
+        </Cards>
 
-<Cards>
+        <Cards>
 
-<Cardsin></Cardsin>
-<h2 style={{marginTop: '20px', textAlign: 'left'}}>United States</h2>
-<p style={{textAlign: 'left'}}>10 Properties</p>
+          <Cardsin></Cardsin>
+          <h2 style={{ marginTop: '20px', textAlign: 'left' }}>United States</h2>
+          <p style={{ textAlign: 'left' }}>10 Properties</p>
 
-</Cards>
+        </Cards>
 
-        </CardsContainer>
-
-        
-
+      </CardsContainer>
     </CardsDiv>
 
-    
+
   )
 }
 
