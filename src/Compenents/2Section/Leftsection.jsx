@@ -37,8 +37,11 @@ const Leftsection = () => {
             <h1>Find Your Dream</h1>
             <h1>Home Today</h1>
             <p>Are you ready to start the search for your dream home? Look no further than Bangoona Real Estate</p>
-            <img src="./200+.png"  />
-            <img style={{marginTop: '30px'}} src={logo}  />
+            <img src="./200+.png" alt="" />
+            <img style={{marginTop: '30px'}} src={logo} alt="" />
+
+
+
         </LeftDiv>
     )
 }

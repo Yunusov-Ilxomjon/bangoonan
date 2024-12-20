@@ -117,46 +117,46 @@ const Hear = () => {
             <CardRight>
 
               <Cards>
-              <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
+              <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
                 <p style={{marginTop: '15px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam optio excepturi consectetur atque eius. At, tempore. Quaerat ut corrupti eveniet.</p>
-                <Img2 src={boy} />
+                <Img2 src={boy} alt="" />
                 <h1 style={{marginTop: '30px'}}>Marc Pillay</h1>
               </Cards>
 
               <Cards>
-              <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
+              <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
                 <p style={{marginTop: '15px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam optio excepturi consectetur atque eius. At, tempore. Quaerat ut corrupti eveniet.</p>
-                <Img2 src={boy} />
+                <Img2 src={boy} alt="" />
                 <h1 style={{marginTop: '30px'}}>Marc Pillay</h1>
               </Cards>
 
               <Cards>
-              <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
+              <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
                 <p style={{marginTop: '15px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam optio excepturi consectetur atque eius. At, tempore. Quaerat ut corrupti eveniet.</p>
-                <Img2 src={boy} />
+                <Img2 src={boy} alt="" />
                 <h1 style={{marginTop: '30px'}}>Marc Pillay</h1>
               </Cards>
 
               <Cards>
-              <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
-                <Img1 src={stars} />
+              <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
+                <Img1 src={stars} alt="" />
                 <p style={{marginTop: '15px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam optio excepturi consectetur atque eius. At, tempore. Quaerat ut corrupti eveniet.</p>
-                <Img2 src={boy} />
+                <Img2 src={boy} alt="" />
                 <h1 style={{marginTop: '30px'}}>Marc Pillay</h1>
               </Cards>
                 
