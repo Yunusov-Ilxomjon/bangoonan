@@ -82,7 +82,7 @@ const Servises = () => {
     return (
         <Service>
             <h1 style={{ marginLeft: '100px', marginTop: '80px' }}>Discover Our Services</h1>
-            <a style={{ textDecoration: 'none' }} href="#"><h3 style={{ marginLeft: '1300px' }}>See All Property</h3></a>
+            <a style={{ textDecoration: 'none' }} href="/"><h3 style={{ marginLeft: '1300px' }}>See All Property</h3></a>
             <p style={{ marginLeft: '100px' }} >Quis in porttitor purus sed</p>
 
             <SellCards>

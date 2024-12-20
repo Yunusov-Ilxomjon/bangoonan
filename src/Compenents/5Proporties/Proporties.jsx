@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import {logo} from '../5Proporties/logo.png'
 
 const Property = styled.div`
 width: 100vw;
@@ -80,7 +79,7 @@ const Proporties = () => {
     <Property>
  
         <h1 style={{marginLeft: '100px', marginTop: '80px'}}>Explore Our Proporties</h1>
-        <a style={{textDecoration: 'none'}} href="#"><h3 style={{marginLeft: '1300px' }}>See All Property</h3></a>
+        <a style={{textDecoration: 'none'}} href="/"><h3 style={{marginLeft: '1300px' }}>See All Property</h3></a>
         <p style={{marginLeft: '100px'}} >Faucibus lorem purus sit in nunc.</p>
 
         <Cards>

@@ -99,22 +99,22 @@ const Rightsection = () => {
         <input type="email" placeholder='Your email' />
         <h2>Your Preference</h2>
 
-        <select name="" id="" >
-          <option value="">Type of property are you interested</option>
-          <option value="">What's your preferred location?</option>
-          <option value="">What's your budget?</option>
+        <select >
+          <option >Type of property are you interested</option>
+          <option >What's your preferred location?</option>
+          <option >What's your budget?</option>
         </select>
 
-        <select name="" id="" >
-          <option value="">Type of property are you interested</option>
-          <option value="">What's your preferred location?</option>
-          <option value="">What's your budget?</option>
+        <select >
+          <option >Type of property are you interested</option>
+          <option >What's your preferred location?</option>
+          <option >What's your budget?</option>
         </select>
 
-        <select name="" id="" >
-          <option value="">Type of property are you interested</option>
-          <option value="">What's your preferred location?</option>
-          <option value="">What's your budget?</option>
+        <select >
+          <option >Type of property are you interested</option>
+          <option >What's your preferred location?</option>
+          <option >What's your budget?</option>
         </select>
 
         <StyledButton>Get Inquiry</StyledButton>
